@@ -32,7 +32,14 @@ def print_as_numbered_list(items):
 
 
 def get_range(start, stop):
-    pass  # TODO: replace this line with your code
+    nums = []
+    num = start
+
+    while num < stop:
+        nums.append(num)
+        num += 1
+
+    
 
 
 def censor_vowels(word):
