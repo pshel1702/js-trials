@@ -25,7 +25,10 @@ def get_odd_indices(items):
 
 
 def print_as_numbered_list(items):
-    pass  # TODO: replace this line with your code
+    i = 1
+    for item in items:
+        print(f'{i}. {item}')
+        i += 1
 
 
 def get_range(start, stop):
