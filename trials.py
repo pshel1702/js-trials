@@ -54,7 +54,17 @@ def censor_vowels(word):
 
 
 def snake_to_camel(string):
-    pass  # TODO: replace this line with your code
+    camel_case = []
+    input_string = string.split("_")
+
+    for word in input_string:
+        camel_case.append(f'{word[0].upper()}{word[1:]}')
+    
+    return ''.join(camel_case)
+
+
+ 
+
 
 
 def longest_word_length(words):
